@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Modal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <div id="startScreen">
+    <button id="openQuiz">Iniciar Quiz</button>
+  </div>
+
+<div id="quizModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="questionText"></h2>
+    <div id="answersContainer"></div>
+    <div class="button-group">
+      <button id="clearBtn">Limpar seleção</button>
+      <button id="nextBtn">Próxima</button>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
