@@ -495,8 +495,8 @@
       "C. Run a session setting report, specifying login methods by user.",
       "D. Export Login History and filter based off of Authentication Method Reference,"
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [0, 3],
+    "multiple": true
   },
   {
     "question": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with. Hour should the administrator track third-party financial advisors and the customers they work with?",
@@ -597,8 +597,8 @@
       "C. Set up a restriction rule on the field.",
       "D. Use a screen flow to ask the question."
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [1, 3],
+    "multiple": true
   },
   {
     "question": "Cloud Kicks wants its sales reps to always use the same full zip code format with a hyphen where applicable. What should the administrator implement to help ensure consistent formatting?",
@@ -723,7 +723,7 @@
     "multiple": false
   },
   {
-    "question": "Cloud Kicks has Service end Soles Manager roles that need to be able to see a I Accounts. Currently, they each have their own custom profile. The organization-wide defaults are set to Private and a sharing rule share access to Accounts to the sales and service teams based on criteria. What should the administrator do to allow the service and sales Manager to sec all Accounts?",
+    "question": "Cloud Kicks has Service end Soles Manager roles that need to be able to see all Accounts. Currently, they each have their own custom profile. The organization-wide defaults are set to Private and a sharing rule share access to Accounts to the sales and service teams based on criteria. What should the administrator do to allow the service and sales Manager to sec all Accounts?",
     "options": [
       "A. Configure a custom profile for each manager that gives them view All on Accounts.",
       "B. Set the organization-wide default for Accounts to Public Read Only.",
