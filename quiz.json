@@ -385,8 +385,8 @@
       "C. Outbound Change Set",
       "D. Inbound Change Set"
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [2, 3],
+    "multiple": true
   },
   {
     "question": "Cloud Kicks has created a new flow that deletes records. What should the administrator consider when testing the flow?",
@@ -528,8 +528,8 @@
       "C. Activation Button",
       "D. Pages Menu"
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [1, 3],
+    "multiple": true
   },
   {
     "question": "The Cloud Kicks online Lead Intake form was recently updated to allow for new choices on some older picklist fields. The leads are all being created properly in Salesforce, but reps are getting errors as they try to work the leads. What tool should the administrator use to evaluate what is causing the errors?",
@@ -780,10 +780,7 @@
       "C. Configure Einstein Search for specific search terms.",
       "D. Promote specific search terms for specific articles."
     ],
-    "correct": [
-      1,
-      3
-    ],
+    "correct": [1, 3],
     "multiple": true
   },
   {
@@ -794,10 +791,7 @@
       "C. Manage custom objects and customize nearly every aspect.",
       "D. Make updates to permission set configurations."
     ],
-    "correct": [
-      0,
-      3
-    ],
+    "correct": [0, 3],
     "multiple": true
   },
   {
@@ -869,8 +863,8 @@
       "C. Create a new view in Identity Verification History, specifying Method.",
       "D. The order of flow execution is unpredictable"
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [0, 2],
+    "multiple": true
   },
   {
     "question": "What should the administrator consider before enabling Person Accounts?",
@@ -1078,7 +1072,7 @@
     "multiple": true
   },
   {
-    "question": "Soles reps at AW Computing hove asked the Administrator to help them close deals faster on the Salesforce mobile app when they're in the new. They want to be able to quickly close an opportunity and have key fields, like status, pre populated to Closed Won. What should an administrator create to achieve this?",
+    "question": "Sales reps at AW Computing hove asked the Administrator to help them close deals faster on the Salesforce mobile app when they're in the new. They want to be able to quickly close an opportunity and have key fields, like status, pre populated to Closed Won. What should an administrator create to achieve this?",
     "options": [
       "A. Object-specific Quick Action",
       "B. Global Quick Action",
@@ -1564,8 +1558,8 @@
       "C. Developer Pro",
       "D. Full"
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [0, 2],
+    "multiple": true
   },
   {
     "question": "When should an administrator consider when using Person Accounts'",
@@ -2045,8 +2039,8 @@
       "C. Create a custom object.",
       "D. Turn on Field Tracking."
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [2, 3],
+    "multiple": true
   },
   {
     "question": "The administrator at Cloud Kicks needs to set up automation to update three fields on the Shipment custom object. Because of the effect these updates will have on some programmatic customizations, they need to happen in a very specific order. How should the administrator configure the field updates to ensure the proper order.",
@@ -2078,8 +2072,8 @@
       "C. Roll-up summary fields prevent the conversion of a master-detail relationship to a lookup.",
       "D. Rollup fields are calculated prior to save."
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [0, 1],
+    "multiple": true
   },
   {
     "question": "Person accounts were recently activated at Cloud Kicks. There are three record types for accounts:\n•\tB2B customer\n•\tB2C Customer\n•\tExternal Partner\nThere are two record types for leads:\n•\tB2B Lead\n•\tB2CLead\nThe test team finds that when the Convert button is clicked on a B2C Lead record, only the B2B Customer and External Partner account record types are available choices on the Conversion Layout. What should the administrator do to correct this issue?",
@@ -2495,8 +2489,8 @@
       "C. Roll-Up Summary field",
       "D. Dynamic Forms"
     ],
-    "correct": 0,
-    "multiple": false
+    "correct": [1, 3],
+    "multiple": true
   },
   {
     "question": "Cloud Kicks uses a dashboard with multiple components based on Account, Case, and Opportunity reports. The system administrator adds a dashboard filter on Account Owner. When filtering the dashboard by Account Owner, records are now missing from several Opportunity components. What is the recommended way for the system administrator to resolve this issue?",
@@ -2593,7 +2587,7 @@
     "multiple": true
   },
   {
-    "question": "On the Contact record, if a contact has the value of 'CEO‘ in the Title field, the administrator wants to require the users to also put a phone number in the Phone field.\nWhat formula should the administrator put in the Error Condition Formula of a validation rule to enable this?",
+    "question": "On the Contact record, if a contact has the value of 'CEO' in the Title field, the administrator wants to require the users to also put a phone number in the Phone field.\nWhat formula should the administrator put in the Error Condition Formula of a validation rule to enable this?",
     "options": [
       "A. Title = 'CEO' && NOT(ISBLANK(Phone))",
       "B. Title <> 'CEO' && NOT(ISBLANK(Phone))",
