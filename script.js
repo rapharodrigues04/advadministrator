@@ -2,10 +2,22 @@ let quizData = [];
 let currentQuestion = 0;
 let feedbackShown = false;
 
-fetch('quiz.json')
-  .then(response => response.json())
+// Função para embaralhar o array de perguntas
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+// Carregar quiz.json e iniciar
+fetch('./quiz.json')
+  .then(response => {
+    if (!response.ok) throw new Error("Erro ao carregar o quiz.");
+    return response.json();
+  })
   .then(data => {
-    data.sort(() => Math.random() - 0.5);
+    shuffle(data); // embaralha as perguntas
     quizData = data;
     initQuiz();
   })
@@ -91,7 +103,7 @@ function initQuiz() {
       return;
     }
 
-    // Segundo clique: próxima pergunta
+    // Segundo clique - próxima pergunta
     currentQuestion++;
     feedbackShown = false;
     nextBtn.textContent = "Próxima";
