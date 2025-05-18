@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz Modal</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/favicon-16x16.png" />
 </head>
 <body>
    <div id="startScreen">
@@ -12,13 +13,15 @@
   </div>
 
 <div id="quizModal" class="modal">
-  <div class="modal-content">
+  <div class="modal-wrapper">
     <span class="close">&times;</span>
-    <h2 id="questionText"></h2>
-    <div id="answersContainer"></div>
-    <div class="button-group">
-      <button id="clearBtn">Limpar seleção</button>
-      <button id="nextBtn">Próxima</button>
+    <div class="modal-content">
+      <h2 id="questionText"></h2>
+      <div id="answersContainer"></div>
+      <div class="button-group">
+        <button id="clearBtn">Limpar seleção</button>
+        <button id="nextBtn">Próxima</button>
+      </div>
     </div>
   </div>
 </div>
